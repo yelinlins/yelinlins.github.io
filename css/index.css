@@ -1,0 +1,304 @@
+body {
+	height: 100%;
+}
+
+.navbar {
+	border-radius: 0;
+	height: 20px;
+	margin: 0;
+	min-height: 52px;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+
+.navbar .container{
+	
+}
+.navbar a{
+	color: white;
+}
+.nav> li> a:focus,
+.nav> li> a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.navbar h3 {
+	color: #FFFFFF;
+	line-height: 10px;
+}
+
+.navbar-nav> li> a {
+	padding-top: 15px;
+}
+
+.banner {
+	display: table;
+	width: 100%;
+	height: 750px;
+	min-height: 750px;
+	background: url(../img/intro-bg.jpg) no-repeat bottom center;
+}
+
+.banner .container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.navbar-inverse{
+	background: transparent;
+}
+
+.banner .container h1 {
+	font-family: 宋体;
+	font-weight: bold;
+	font-size: 55px;
+	color: #F4D03F;
+}
+
+@media only screen and (max-width: 640px) {
+	.banner .container h1 {
+		font-size: 36px;
+	}
+}
+
+.banner .container h3 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.icon-chevron-with-circle-down {
+	font-size: 70px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.icon-chevron-with-circle-down:hover {
+	display: block;
+	animation: pulse 1s infinite;
+	color: #F4D03F;
+}
+
+.express {
+	background: linear-gradient(to bottom, #ffffff, #CDCDCD);
+	color: #000000;
+	font-size: 17px;
+}
+
+.express,
+.message {
+	text-align: center;
+	min-height: 465px;
+	background-color: #626569;
+}
+
+.express h2,
+.message h2,
+.skill h2,
+.access h2,
+.connect-content h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 100px;
+	line-height: 115px;
+	margin-bottom: 30px;
+}
+
+.message h3 {
+	color: #F4D03F;
+}
+
+.message .row .icon {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 40px;
+	font-size: 47px;
+	color: #AAAAAA;
+	border-radius: 50%;
+	background-color: #474B4F;
+	cursor: pointer;
+}
+
+.message .row .icon:hover {
+	transform: scale(1.2);
+	transition: 1s;
+	color: #F4D03F;
+}
+
+.message .row .col-lg-3 p {
+	font-size: 16px;
+	color: #AAAAAA;
+}
+
+.express h2 {
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.express .col-lg-3 .hover-text {
+	text-decoration: none;
+	display: inline-block;
+	color: #FFFFFF;
+	width: 260px;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+	margin-bottom: 20px;
+	opacity: 0;
+}
+
+.express .col-lg-3 {
+	position: relative;
+}
+
+.express .col-lg-3 .down {
+	position: absolute;
+	width: 260px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.express .col-lg-3:hover .down {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.express .col-lg-3:hover .hover-text {
+	transform: scale(1.1);
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.express .row {
+	margin-top: 20px;
+}
+
+.hover-text .middle-text {
+	transform: translateY(50%);
+}
+
+.express .icon-search {
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 25px;
+	color: #F4D03F;
+}
+
+.skill {
+	background: linear-gradient(to bottom, #F4D03F, #c6a933);
+	text-align: center;
+	min-height: 600px;
+}
+
+.skill h2 {
+	color: #000000;
+	margin-top: 10px;
+}
+
+.skill .right-side {
+	font-size: 18px;
+	padding-left: 104px;
+	text-align: left;
+}
+
+.skill .icon-hour-glass {
+	color: #f2f2f2;
+}
+
+.bg-img {
+	width: 100%;
+	min-height: 500px;
+	background: url(../img/bg.jpg) no-repeat bottom center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg-img .container {
+	overflow: hidden;
+}
+
+.access {
+	width: 100%;
+	min-height: 500px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.p-content {
+	position: relative;
+	overflow: hidden;
+	margin-top: 25px;
+	margin: 0 auto;
+	width: 50%;
+	min-height: 100px;
+}
+
+.access p {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #DDDDDD;
+	font-size: 20px;
+	position: absolute;
+}
+
+.circle {
+	width: 100px;
+	margin: 20px auto;
+}
+
+.circle span {
+	display: inline-block;
+	background-color: #DDDDDD;
+	padding: 7px;
+	margin: 3px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.circle span:first-of-type {
+	opacity: 0.5;
+}
+
+.connect-content h2 {
+	color: #000000;
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+
+.connect {
+	background-image: url(../img/背景.jpg);
+	color:  #1B6D85;
+	position: absolute;
+	width: 100%;
+	min-height: 500px;
+	background-size: contain;
+	filter: blur(2px);
+	z-index: -1;
+	/*background: linear-gradient(to bottom, #ffffff, #CDCDCD);*/
+}
+
+.connect-content{
+	text-align: center;
+	z-index: 1;
+	
+}
+.connect-content .icon {
+	display: inline-block;
+	margin-bottom: 15px;
+	font-size: 30px;
+	color:#265A88;
+}
+
+.connect-content .last-content{
+	font-family: 宋体;
+	color: #265A88;
+	line-height:170px;
+	font-size: 40px;
+}
